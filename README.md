@@ -5,8 +5,9 @@
 
 This example shows how to use the Wi-Fi SoftAP functionality of the Wi-Fi driver of ESP for serving as an Access Point.</br>
 And tcp_server feature is running with myssid@mypassword, ap ip is 192.168.x.1</br>
-Actual IP address can be seen via console log</br>
+Actual IP address can be seen via console log</br></br>
 
+This is same code wqith xiao_esp32c3_ap_tcp_server and changed to S3 config and confirmed that it's working</br>
 
 ## How to use example
 
@@ -48,8 +49,8 @@ cd /home/louiey/esp/esp-idf </br>
 source ./export.sh
 
 // go to project folder </br>
-cd /home/louiey/Work/ESP32C3/xiao_esp32c3_ap_tcp_server </br>
-idf.py set-target esp32c3 </br>
+cd /home/louiey/Work/ESP32C3/xiao_esp32s3_ap_tcp_server </br>
+idf.py set-target esp32s3 </br>
 idf.py menuconfig </br>
 idf.py build </br>
 idfx flash COM5 </br>
